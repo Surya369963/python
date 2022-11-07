@@ -1,0 +1,6 @@
+S=int(input())
+l=list(map(int,input().strip().split( )))[:S]
+print(max(l))
+print(min(l))
+a1=sum(l)/S
+print(a1)
